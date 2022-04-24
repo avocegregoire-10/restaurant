@@ -1,0 +1,57 @@
+.starter-menu{
+    width: 70%;
+    height: 450px;
+    padding: 25px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    display: grid;
+    /*justify-content: space-around;*/
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(3, 150px);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.menu-left{
+    margin-left: 500px;
+}
+
+.menu .desc{
+    width: 600px;
+    margin-left: 120px;
+    margin-top: -70px;
+}
+
+.menu .desc h4, .desc p{
+    text-align: start;
+    position: relative;
+}
+
+.menu span{
+    position: absolute;
+    right: 170px;
+}
+
+.produits{
+    margin-top: 30px;
+}
+
+.produit{
+    width: 410px;
+    height: 590px;
+}
+
+.produit img{
+    width: 380px;
+    height: 380px;
+    padding: 2px;
+}
+
+

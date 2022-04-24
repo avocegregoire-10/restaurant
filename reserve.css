@@ -1,0 +1,98 @@
+.make-reservation{
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/restaurant-la-tour-1024-04.jpg);
+    /*background-repeat: no-repeat;*/
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.make-reservation h1{
+    text-align: center;
+    padding-top: 250px;
+}
+
+.information{
+    width: 75%;
+    height: 900px;
+    display: flex;
+    padding-top: 55px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.addresses{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.contact-info p{
+    text-align: start;
+}
+
+.contact-info span{
+    padding-right: 220px;
+}
+
+.contact-info .day{
+    font-weight: bold;
+}
+
+.contact-info .horaire{
+    position: absolute;
+    left: 467px;
+}
+
+.contact-info hr{
+    width: 500px;
+}
+
+.form form{
+    width: 650px;
+    height: 800px;
+    padding: 55px;
+    background-color: #ffffff;
+}
+
+.name{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail-phone{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    border: none;
+}
+
+button{
+    width: 250px;
+    height: 55px;
+    background-color: tomato;
+    border: none;
+}
+
+button:hover{
+    background-color: #f90;
+}
+
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button a:hover{
+    color: #ffffff;
+}
+
+.contact{
+    background-image: url(./images/restaurant-bar.jpeg);
+    color: #ffffff;
+}

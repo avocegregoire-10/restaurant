@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+nav{
+    margin-right: 200px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img{
+    width: 50px;
+    height: 50px;
+}
+
+header nav{
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+header nav ul li{
+    margin-left: 30px;
+}
+
+header nav ul li a:hover{
+    color: #f90;
+}
+
+.banner{
+    width: 100%;
+    height: 740px;
+    background-image: url("./images/tagine.jpeg");
+    color: #ffffff;
+    position: relative;
+}
+
+.banner a{
+    text-decoration: none;
+}
+
+ 
+.contenu-banner{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.contenu-banner h1, .contenu-banner p{
+    text-align: start;
+}
+
+.contenu-banner button{
+    width: 190px;
+    height: 60px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    background-color: #f50;
+    border: none;
+    cursor: pointer;
+}
+
+.contenu-banner button:hover{
+    background-color: #f90;
+}
+
+.contenu-banner button a{
+    color: #ffffff;
+}
+
+.info{
+    width: 75%;
+    display: flex;
+    position: absolute;
+    bottom: -170px;
+    left: 350px;
+}
+
+.visiter{
+    width: 600px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.visiter h2{
+    margin-top: 60px;
+    margin-left: 54px;
+}
+
+.visiter p{
+   text-align: start;
+   margin-left: 54px;
+}
+
+.produits{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.today-menu{
+    width: 380px;
+    height: 550px;
+    margin: 20px;
+    padding-top: 55px;
+}
+
+.today-menu h2, .today-menu p{
+    text-align: start;
+}
+
+.trait{
+    width: 45px;
+    height: 2px;
+    background-color: #f50;
+}
+
+.today-menu button{
+    width: 190px;
+    height: 60px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    background-color: #f50;
+    border: none;
+    cursor: pointer;
+}
+
+.today-menu button:hover{
+    background-color: #f90;
+}
+
+.today-menu button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.produit{
+    width: 380px;
+    height: 550px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+.produit img{
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+}
+
+.produit h4, p{
+    text-align: center;
+}
+
+.star{
+    width: 150px;
+    height: 35px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*position: absolute;
+    left: 250px;*/
+}
+
+.star i{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f90;
+}
+
+.img-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 img{
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.galery{
+    width: 100%;
+    height: 1000px;
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+}
+
+.title-galery{
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img-galery{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 300px);
+    margin-left: 300px;
+    margin-top: 120px;
+}
+
+.contact{
+    width: 100%;
+    height: 300px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.contact h3, p{
+    text-align: center;
+}
+
+.icones i{
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #f50;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    padding-top: 55px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.foot{
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+hr{
+    width: 250px;
+}
+
+
+.footer-1 p{
+    text-align: justify;
+}
+
+.footer-2 p{
+    text-align: start;
+}
+
+.footer-3 p{
+    text-align: start;
+}
+
+.policy{
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+}

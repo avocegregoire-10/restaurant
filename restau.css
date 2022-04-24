@@ -1,0 +1,122 @@
+.banner{
+    height: 500px;
+}
+
+.history{
+    margin-top: 65px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.history-menu{
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+
+.menu-dispo{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 300px);
+}
+
+.menu-dispo img{
+    width: 280px;
+    height: 280px;
+}
+
+.service img{
+    height: 582px;
+}
+
+.love-customer{
+    margin-top: 65px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.customers{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+
+.customer-comment{
+    width: 48%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.customer-comment img{
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.customer-comment .icones i{
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #f50;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.image-customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-customer figcaption{
+    font-weight: bold;
+}
+
+.pub{
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.wedd{
+    width: 500px;
+    height: 550px;
+    margin: 20px;
+    padding-top: 55px;
+}
+
+.wedd h2, .wedd p{
+    text-align: start;
+}
+
+.wedd button{
+    width: 190px;
+    height: 60px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    background-color: #f50;
+    border: none;
+    cursor: pointer;
+}
+
+.wedd button:hover{
+    background-color: #f90;
+}
+
+.wedd button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact{
+    background-color: #ffffff;
+    padding-top: 80px;
+}
